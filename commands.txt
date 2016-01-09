@@ -1,0 +1,29 @@
+    1  history
+    2  pwd
+    3  ls
+    4  cd tutorial
+    5  ls
+    6  cat matt.txt
+    7  cat fish.txt
+    8  shell.txt
+    9  ls
+   10  histort |grep > command.txt
+   11  history |grep > command.txt
+   12  ls
+   13  cat command.txt
+   14  ls
+   15  cat matt.txt
+   16  for filename in data/*.txt; do  echo $filename; grep -v species $filename |cut -d,-f 2| sort|uniq -c; done
+   17  for filename in tutorial/*.txt; do  echo $filename; grep -v species $filename |cut -d,-f 2| sort|uniq -c; done
+   18  for filename in *.txt; do  echo $filename; grep -v species $filename |cut -d,-f 2| sort|uniq -c; done
+   19  for filename in *.txt; do  echo $filename; grep -v species $filename |cut -d -f 2| sort|uniq -c; done
+   20  for filename in *.txt; do  echo $filename; grep -v species $filename |cut -d\  -f 2| sort|uniq -c; done
+   21  grep -x salmon fish.txt
+   22  grep  salmon fish.txt
+   23  grep  cod fish.txt
+   24  grep  marlin fish.txt
+   25  git status
+   26  env
+   27  pwd
+   28  history
+   29  history > commands.txt
